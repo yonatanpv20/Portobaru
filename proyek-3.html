@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus: Dashboard Distribusi Ukuran Seragam TNI AD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html#hero" class="logo">Yonatan.PV</a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html#about">Tentang Saya</a></li>
+                    <li><a href="index.html#projects">Proyek Lain</a></li>
+                </ul>
+            </nav>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="project-hero">
+            <div class="container">
+                <p class="project-category">Studi Kasus Proyek</p>
+                <h1 class="project-title-detail">Analisis & Visualisasi Data 24.000 Personel untuk Distribusi Seragam PDH TNI AD</h1>
+                <img src="assets/proyek-3.jpg" alt="Proyek PDH TNI AD" class="project-hero-image">
+            </div>
+        </section>
+
+        <section id="project-body">
+            <div class="container project-layout">
+                <article class="project-main-content">
+                    <h2>Tantangan</h2>
+                    <p>Memahami kebutuhan seragam untuk <strong>24.000 personel TNI AD</strong> adalah tantangan logistik yang masif. Data mentah yang ada sangat besar dan tidak memberikan wawasan langsung mengenai pola atau klaster ukuran yang dominan. Pihak manajemen memerlukan sebuah cara yang cepat dan visual untuk memahami distribusi ukuran secara keseluruhan dan per satuan, guna merencanakan produksi dan alokasi secara efisien.</p>
+                    
+                    <h2>Solusi yang Diterapkan</h2>
+                    <p>Saya mengambil tanggung jawab untuk mengolah keseluruhan dataset 24.000 personel. Solusinya adalah merancang dan membangun sebuah <strong>dashboard interaktif</strong> di dalam Google Sheets. Dashboard ini tidak hanya menampilkan data, tetapi juga memvisualisasikannya ke dalam bentuk klaster-klaster distribusi yang mudah dipahami, memungkinkan para pemangku kepentingan untuk menganalisis data dengan mudah.</p>
+                    
+                    <h3>Fitur Utama</h3>
+                    <ul class="features-list">
+                        <li><i class='bx bxs-check-circle'></i> <strong>Pengolahan Data Skala Besar:</strong> Membersihkan dan menata ulang 24.000 baris data menggunakan Google Apps Script untuk memastikan akurasi dan konsistensi.</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Visualisasi Klaster Ukuran:</strong> Membuat grafik distribusi (histogram dan diagram batang) yang secara jelas menunjukkan ukuran-ukuran seragam yang paling banyak dibutuhkan.</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Filter Interaktif:</strong> Menambahkan Slicer dan Dropdown di dashboard agar pengguna dapat memfilter data berdasarkan satuan, pangkat, atau wilayah geografis.</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Ringkasan Metrik Kunci:</strong> Menampilkan ringkasan data penting seperti jumlah total personel, ukuran rata-rata, dan 5 ukuran paling umum secara jelas di bagian atas dashboard.</li>
+                    </ul>
+
+                    <h2>Hasil & Dampak</h2>
+                    <p>Dashboard yang saya bangun berhasil mengubah tumpukan data mentah yang rumit menjadi alat bantu pengambilan keputusan yang strategis. Tim logistik dan pengadaan dapat dengan cepat mengidentifikasi kebutuhan prioritas, merencanakan jumlah produksi untuk setiap ukuran dengan lebih akurat, dan mengurangi potensi kelebihan atau kekurangan stok. Proyek ini membuktikan kekuatan visualisasi data dalam menyederhanakan masalah logistik yang kompleks.</p>
+                </article>
+
+                <aside class="project-sidebar">
+                    <div class="sidebar-block">
+                        <h3>Tipe Proyek</h3>
+                        <p>Analisis Data & Business Intelligence</p>
+                    </div>
+                    <div class="sidebar-block">
+                        <h3>Peran Saya</h3>
+                        <p>Data Analyst & Dashboard Developer</p>
+                    </div>
+                    <div class="sidebar-block">
+                        <h3>Teknologi yang Digunakan</h3>
+                        <ul class="tech-stack-list">
+                            <li><i class='bx bxs-spreadsheet' ></i> Google Sheets</li>
+                            <li><i class='bx bxl-google'></i> Google Apps Script</li>
+                            <li><i class='bx bxs-pie-chart-alt-2'></i> Visualisasi Data</li>
+                            <li><i class='bx bxs-dashboard' ></i> Dashboarding</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-block project-cta-buttons">
+                        <a href="index.html#projects" class="cta-button back-button">
+                            <i class='bx bx-arrow-back'></i> Kembali
+                        </a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-detail">
+        <div class="container">
+            <p>&copy; 2025 - Yonatan.PV | Portofolio Analis Data</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

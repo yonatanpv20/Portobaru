@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus: Pengolahan Data Pengadaan Seragam TNI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html#hero" class="logo">Yonatan.PV</a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html#about">Tentang Saya</a></li>
+                    <li><a href="index.html#projects">Proyek Lain</a></li>
+                </ul>
+            </nav>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="project-hero">
+            <div class="container">
+                <p class="project-category">Studi Kasus Proyek</p>
+                <h1 class="project-title-detail">Pengolahan & Validasi Data Pengadaan 15.000 Seragam PDU 1 TNI AD</h1>
+                <img src="assets/proyek-2.jpg" alt="Proyek TNI PDU 1" class="project-hero-image">
+            </div>
+        </section>
+
+        <section id="project-body">
+            <div class="container project-layout">
+                <article class="project-main-content">
+                    <h2>Tantangan</h2>
+                    <p>Pengadaan seragam dalam skala besar untuk institusi militer seperti TNI AD memerlukan tingkat akurasi data yang sangat tinggi. Proyek ini melibatkan data untuk <strong>15.000 setel seragam PDU 1</strong> yang tersebar di berbagai Pusat Pendidikan Militer. Tantangan utamanya adalah risiko kesalahan manusia (human error) saat input data, duplikasi data, dan format yang tidak konsisten, yang dapat menyebabkan kesalahan fatal dalam produksi dan distribusi.</p>
+                    
+                    <h2>Solusi yang Diterapkan</h2>
+                    <p>Untuk mengatasi tantangan ini, saya membangun sebuah sistem pengolahan dan validasi data semi-otomatis menggunakan Google Sheets dan Google Apps Script. Google Sheets difungsikan sebagai database terpusat yang mudah diakses oleh tim. Saya kemudian mengembangkan serangkaian skrip kustom untuk melakukan pembersihan dan validasi data secara otomatis, serta membuat dashboard interaktif untuk pemantauan.</p>
+                    
+                    <h3>Fitur Utama</h3>
+                    <ul class="features-list">
+                        <li><i class='bx bxs-check-circle'></i> <strong>Skrip Validasi Otomatis:</strong> Membuat fungsi di Apps Script untuk memeriksa setiap baris data baru, mencari duplikasi, dan memastikan ukuran seragam sesuai standar yang ditentukan.</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Sistem Pembersihan Data:</strong> Mengotomatiskan proses standardisasi format data (misalnya, nama, pangkat, satuan) untuk memastikan konsistensi.</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Dashboard Pemantauan Real-time:</strong> Membangun dashboard di Google Sheets menggunakan Pivot Table dan Grafik untuk memvisualisasikan progres, distribusi ukuran, dan rekapitulasi per satuan.</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Laporan Otomatis:</strong> Mengatur skrip untuk menghasilkan laporan rekapitulasi harian yang dikirimkan kepada manajer proyek.</li>
+                    </ul>
+
+                    <h2>Hasil & Dampak</h2>
+                    <p>Implementasi sistem ini berhasil <strong>meningkatkan akurasi data hingga 99%</strong> dan mengurangi waktu yang dibutuhkan untuk validasi data lebih dari 80% dibandingkan proses manual. Dashboard interaktif memberikan visibilitas penuh kepada para pemangku kepentingan, memungkinkan pengambilan keputusan yang cepat dan tepat. Keberhasilan ini memastikan proses pengadaan berjalan lancar dan meminimalkan risiko kesalahan logistik.</p>
+                </article>
+
+                <aside class="project-sidebar">
+                    <div class="sidebar-block">
+                        <h3>Tipe Proyek</h3>
+                        <p>Pengolahan Data & Validasi</p>
+                    </div>
+                    <div class="sidebar-block">
+                        <h3>Peran Saya</h3>
+                        <p>Data Processor & Analyst</p>
+                    </div>
+                    <div class="sidebar-block">
+                        <h3>Teknologi yang Digunakan</h3>
+                        <ul class="tech-stack-list">
+                            <li><i class='bx bxs-spreadsheet' ></i> Google Sheets</li>
+                            <li><i class='bx bxl-google'></i> Google Apps Script</li>
+                            <li><i class='bx bxs-dashboard' ></i> Dashboarding</li>
+                            <li><i class='bx bx-data' ></i> Validasi Data</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-block project-cta-buttons">
+                        <a href="index.html#projects" class="cta-button back-button">
+                            <i class='bx bx-arrow-back'></i> Kembali
+                        </a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-detail">
+        <div class="container">
+            <p>&copy; 2025 - Yonatan.PV | Portofolio Analis Data</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

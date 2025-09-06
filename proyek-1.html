@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus: Website Penjualan Otomatis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html#hero" class="logo">Yonatan.PV</a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="index.html#about">Tentang Saya</a></li>
+                    <li><a href="index.html#projects">Proyek Lain</a></li>
+                </ul>
+            </nav>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="project-hero">
+            <div class="container">
+                <p class="project-category">Studi Kasus Proyek</p>
+                <h1 class="project-title-detail">Website Penjualan Otomatis dengan Google Suite</h1>
+                <img src="assets/proyek-1.jpg" alt="Tampilan Website Penjualan" class="project-hero-image">
+            </div>
+        </section>
+
+        <section id="project-body">
+            <div class="container project-layout">
+                <article class="project-main-content">
+                    <h2>Tantangan</h2>
+                    <p>Banyak usaha kecil dan menengah (UKM) memerlukan platform e-commerce untuk menjual produk mereka secara online. Namun, kendala utama yang sering dihadapi adalah biaya tinggi untuk pengembangan, hosting server, dan langganan platform. Tantangannya adalah menciptakan solusi e-commerce yang <strong>fungsional, otomatis, dan nyaris tanpa biaya operasional</strong>.</p>
+                    
+                    <h2>Solusi yang Diterapkan</h2>
+                    <p>Saya merancang dan membangun sebuah sistem e-commerce lengkap dari nol dengan memanfaatkan ekosistem Google yang sudah ada. Google Sheets difungsikan sebagai database utama untuk manajemen produk, inventaris, dan data pesanan. Seluruh logika backend, mulai dari menampilkan halaman web hingga memproses pesanan, dikendalikan oleh <strong>Google Apps Script</strong>.</p>
+                    
+                    <h3>Fitur Utama</h3>
+                    <ul class="features-list">
+                        <li><i class='bx bxs-check-circle'></i> <strong>Frontend Dinamis:</strong> Katalog produk ditampilkan secara dinamis dari data yang ada di Google Sheets.</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Manajemen Inventaris Real-time:</strong> Stok produk otomatis berkurang di Google Sheets setiap kali ada pesanan yang berhasil.</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Proses Checkout Otomatis:</strong> Data dari formulir pemesanan langsung terekam sebagai baris baru di sheet "Pesanan".</li>
+                        <li><i class='bx bxs-check-circle'></i> <strong>Notifikasi Email Otomatis:</strong> Sistem secara otomatis mengirim email konfirmasi kepada pelanggan dan notifikasi pesanan baru kepada admin.</li>
+                    </ul>
+
+                    <h2>Hasil & Dampak</h2>
+                    <p>Proyek ini berhasil membuktikan bahwa platform e-commerce yang andal tidak harus mahal. Solusi ini memberikan UKM sebuah alat penjualan online yang kuat dengan <strong>biaya operasional Rp 0</strong> (nol rupiah), karena tidak memerlukan hosting atau database berbayar. Sistem ini sangat mudah dikelola bahkan oleh pengguna yang tidak memiliki latar belakang teknis, karena semua data terpusat di Google Sheets.</p>
+                </article>
+
+                <aside class="project-sidebar">
+                    <div class="sidebar-block">
+                        <h3>Tipe Proyek</h3>
+                        <p>Pengembangan Web & Otomatisasi</p>
+                    </div>
+                    <div class="sidebar-block">
+                        <h3>Peran Saya</h3>
+                        <p>Full-Stack Developer (Apps Script)</p>
+                    </div>
+                    <div class="sidebar-block">
+                        <h3>Teknologi yang Digunakan</h3>
+                        <ul class="tech-stack-list">
+                            <li><i class='bx bxl-google'></i> Google Sheets</li>
+                            <li><i class='bx bxl-google'></i> Google Apps Script</li>
+                            <li><i class='bx bxl-javascript'></i> JavaScript</li>
+                            <li><i class='bx bxl-html5'></i> HTML5</li>
+                            <li><i class='bx bxl-css3'></i> CSS3</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-block project-cta-buttons">
+                        <a href="index.html#projects" class="cta-button back-button">
+                            <i class='bx bx-arrow-back'></i> Kembali
+                        </a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-detail">
+        <div class="container">
+            <p>&copy; 2025 - Yonatan.PV | Portofolio Analis Data</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
